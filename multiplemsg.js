@@ -11,7 +11,7 @@ export const options = {
     scenarios: {
         chrome: {
             executor: 'constant-vus',
-            vus: 2,
+            vus: 10,
             duration: '30s',
             options: {
                 browser: {
@@ -21,7 +21,7 @@ export const options = {
         },
         edge: {
             executor: 'constant-vus',
-            vus: 2,
+            vus: 10,
             duration: '30s',
             options: {
                 browser: {
